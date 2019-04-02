@@ -1,0 +1,36 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "this is a personal website with the react frame",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --p --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loveforcode/personal-website.git"
+  },
+  "author": "xieww",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/loveforcode/personal-website/issues"
+  },
+  "homepage": "https://github.com/loveforcode/personal-website#readme",
+  "dependencies": {
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^2.0.1",
+    "copy-webpack-plugin": "^5.0.2",
+    "css-loader": "^2.1.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
